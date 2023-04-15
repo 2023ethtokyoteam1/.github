@@ -2,6 +2,8 @@
 
 Accio.NFT combines interchain bridging protocol with NFT marketplaces to create a one-click UX for buying NFTs with cross-chain liquidity.
 
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/8697531/232258816-a35b76a9-9a30-4887-bfd5-cb715fb86b7e.png">
+
 
 ## Background
 
