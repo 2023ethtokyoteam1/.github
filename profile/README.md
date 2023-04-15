@@ -15,8 +15,12 @@ Cross Chain Liquidity for L2-based NFTs
 ## Development
 
 ### Hyperlane
+https://github.com/2023ethtokyoteam1/hyperlane-monorepo
 
-- TODO
+We added the configs for the validator and relayer and have slightly modified the Hyperlane's relayer code to work with our use case.
+
+#### Steps
+The steps for building and running the binaries are specified in the [Hyperlane docs](https://docs.hyperlane.xyz/docs/deploy/deploy-hyperlane/run-validators). You can follow those steps with our modified [hyperlane-monorepo](https://github.com/2023ethtokyoteam1/hyperlane-monorepo).
 
 ### Smart contracts
 https://github.com/2023ethtokyoteam1/accio-nft-contracts
@@ -25,13 +29,14 @@ The `buy` function on the `LiquidityAggregator` contract is the initial entrypoi
 
 #### Steps
 1. Clone the [contract repo](https://github.com/2023ethtokyoteam1/accio-nft-contracts).
-2. `yarn init`
+2. `yarn`
 3. `hardhat compile`
 4. TODO: deploy steps
 
 
 ### Frontend
 
+#### Steps
 - TODO
 
 
