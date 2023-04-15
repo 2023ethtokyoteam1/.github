@@ -31,7 +31,7 @@ The `buy` function on the `LiquidityAggregator` contract is the initial entrypoi
 1. Clone the [contract repo](https://github.com/2023ethtokyoteam1/accio-nft-contracts).
 2. `yarn`
 3. `hardhat compile`
-4. TODO: deploy steps
+4. `bash ./commands.sh`
 
 
 ### Frontend
