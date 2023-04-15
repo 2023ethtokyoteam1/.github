@@ -37,8 +37,39 @@ The `buy` function on the `LiquidityAggregator` contract is the initial entrypoi
 
 
 ### Frontend
-TODO: add links to repo, vercel
+https://github.com/2023ethtokyoteam1/accio-frontend
+
+#### Main Features
+- Easily view liquidity across multiple chains
+- Display the aggregated value of various tokens from multiple chains through the **1inch API**
+- Support simple swaps across multiple chains using the **1inch Fusion SDK**
+- Aggregate and display NFT collection information from multiple chains and marketplaces. Also used **opensea.io API**
+- Integrated with the **accio.nft smart contract**
+- View your NFTs distributed across multiple chains
 
 #### Steps
-1. TODO
+1. Clone the [frontend repo](https://github.com/2023ethtokyoteam1/accio-frontend).
+2. `yarn install`
+3. `yarn dev`
 
+### Backend
+https://github.com/2023ethtokyoteam1/accio-backend
+
+#### Main Features
+- Periodically fetch and store NFT offer data from marketplace(opensea.io currently)
+- Provide pre-fetched data upon request from the frontend
+
+#### Steps
+- To install 
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn nft_server:app --reload
+```
+
+- To request
+```
+http://localhost:8000/offers/{slug}
+http://localhost:8000/stats/{slug}
+```
