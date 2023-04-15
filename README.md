@@ -1,4 +1,4 @@
-# Accio.nft
+# Accio.NFT
 
 Accio.NFT combines interchain bridging protocol with NFT marketplaces to create a one-click UX for buying NFTs with cross-chain liquidity.
 
