@@ -16,6 +16,9 @@ Accio.NFT combines interchain bridging protocol with NFT marketplaces to create 
 
 ## Development
 
+### Architecture Diagram
+![Architecture diagram](https://github.com/2023ethtokyoteam1/.github/blob/main/architecture_diagram.png)
+
 ### Hyperlane
 https://github.com/2023ethtokyoteam1/hyperlane-monorepo
 
