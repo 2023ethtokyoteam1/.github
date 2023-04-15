@@ -1,10 +1,12 @@
 # Accio.nft
 
-Cross Chain Liquidity for L2-based NFTs
+Accio.NFT combines interchain bridging protocol with NFT marketplaces to create a one-click UX for buying NFTs with cross-chain liquidity.
 
-## Project Description
+## Background
 
-- TODO
+- As the Ethereum ecosystem expands, we will see more and more new chains that serve different purposes.
+- This means that in order to use multiple products, users need to move liquidity between multiple chains. The current UX for bridging liquidity is quite cumbersome—users need to swap and bridge tokens from each chain separately.
+- There needs to be an easy way for users to use products without having to worry about how to bridge assets from different chains.
 
 ## Demo
 
@@ -35,8 +37,8 @@ The `buy` function on the `LiquidityAggregator` contract is the initial entrypoi
 
 
 ### Frontend
+TODO: add links to repo, vercel
 
 #### Steps
-- TODO
-
+1. TODO
 
