@@ -2,6 +2,8 @@
 
 Accio.NFT combines interchain bridging protocol with NFT marketplaces to create a one-click UX for buying NFTs with cross-chain liquidity.
 
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/8697531/232258816-a35b76a9-9a30-4887-bfd5-cb715fb86b7e.png">
+
 
 ## Background
 
@@ -41,7 +43,7 @@ The `buy` function on the `LiquidityAggregator` contract is the initial entrypoi
 4. Once the remote `LiquidityAggregator` receives the message, it gets the user's funds on the remote chain and calls `transferRemote` on the [`HypERC20`](https://docs.hyperlane.xyz/docs/apis-and-sdks/warp-api#interface) token to send them over to the origin chain.
 5. Upon a successful interchain transfer, the `handleWithToken` function on the origin chain's `LiquidityAggregator` is called and if the funds are all aggregated, an NFT purchase is executed.
 
-See [Architecture diagram](https://github.com/2023ethtokyoteam1/.github/blob/main/architecture_diagram.png) for more info.
+See [Architecture diagram](https://github.com/2023ethtokyoteam1/.github/blob/main/images/architecture_diagram.png) for more info.
 
 #### Steps
 1. Clone the [contract repo](https://github.com/2023ethtokyoteam1/accio-nft-contracts).
