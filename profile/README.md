@@ -2,19 +2,25 @@
 
 Accio.NFT combines interchain bridging protocol with NFT marketplaces to create a one-click UX for buying NFTs with cross-chain liquidity.
 
+
 ## Background
 
 - As the Ethereum ecosystem expands, we will see more and more new chains that serve different purposes.
 - This means that in order to use multiple products, users need to move liquidity between multiple chains. The current UX for bridging liquidity is quite cumbersome—users need to swap and bridge tokens from each chain separately.
 - There needs to be an easy way for users to use products without having to worry about how to bridge assets from different chains.
 
+
 ## Demo
 
-- TODO: add link to the demo video
-- TODO: add link to the slide deck
+- [Live demo](https://accio-frontend-fork.vercel.app/)
+- [Demo video](https://youtu.be/VbzfmyQuwSU)
+- [Deck](https://github.com/2023ethtokyoteam1/.github/blob/main/accio_deck.pdf)
 
 
 ## Development
+
+### Architecture Diagram
+![Architecture diagram](https://github.com/2023ethtokyoteam1/.github/blob/main/architecture_diagram.png)
 
 ### Hyperlane
 https://github.com/2023ethtokyoteam1/hyperlane-monorepo
