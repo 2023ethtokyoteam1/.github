@@ -54,6 +54,8 @@ https://github.com/2023ethtokyoteam1/accio-frontend
 - Easily view liquidity across multiple chains
 - Display the aggregated value of various tokens from multiple chains through the **1inch API**
 - Support simple swaps across multiple chains using the **1inch Fusion SDK**
+  - Currently disabled for demo
+  - See https://github.com/2023ethtokyoteam1/accio-frontend/pull/1 for fusion sdk implementation
 - Aggregate and display NFT collection information from multiple chains and marketplaces. Also used **opensea.io API**
 - Integrated with the **accio.nft smart contract**
 - View your NFTs distributed across multiple chains
