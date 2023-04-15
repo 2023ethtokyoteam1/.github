@@ -73,3 +73,9 @@ uvicorn nft_server:app --reload
 http://localhost:8000/offers/{slug}
 http://localhost:8000/stats/{slug}
 ```
+
+### Disclaimer
+
+- Due to the opensea API not functioning properly on testnets, the demo has been set up using mainnet data as a basis and mock test data has been created
+- Since the 1inch Fusion API does not support testnets, this feature has been disabled in the demo
+- As the 1inch Quote API does not support chains like Linea, this feature has also been disabled in the demo
